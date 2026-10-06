@@ -1,0 +1,50 @@
+{
+  "snapshot_id": 1,
+  "console_id": 10,
+  "fetched_at": "2026-10-06T08:20:38.845375+00:00",
+  "ra_games_with_achievements": 36,
+  "status_totals": {
+    "local": 35,
+    "local_other_platform": 0,
+    "dat_only": 0,
+    "nointro_db_only": 0,
+    "unmatched": 1
+  },
+  "by_category": {
+    "Official": {
+      "local": 24
+    },
+    "Prototype": {
+      "local": 5
+    },
+    "Hack": {
+      "local": 4
+    },
+    "Homebrew": {
+      "local": 2
+    },
+    "Homebrew/Demo": {
+      "unmatched": 1
+    }
+  },
+  "sibling_databases": [],
+  "shared_console_scope": false,
+  "local_roms_with_achievements": 39,
+  "rule": "RA hash = MD5 of the complete file; exact hash equality only",
+  "local_games_by_source": {
+    "nointro": 1,
+    "nointro,retroachievements": 29,
+    "retroachievements": 5
+  },
+  "retroachievements_collections": {
+    "RA - Sega 32X": {
+      "in_nointro_dat": 31,
+      "ra_hash_unknown": 1,
+      "ra_only": 7
+    }
+  },
+  "collection_files_with_unknown_ra_hash": 1,
+  "missing_by_category": {
+    "Homebrew/Demo": 1
+  }
+}

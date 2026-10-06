@@ -1,0 +1,256 @@
+{
+  "platform": "32x",
+  "started_at": "2026-10-06T08:16:35.204724+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Sega - 32X (Parent-Clone)",
+      "version": "20260317-140429"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Sega - 32X",
+      "/mnt/MyShare/No-Intro/Sega - 32X (Aftermarket)"
+    ],
+    "families": 58,
+    "family_assignment": {
+      "family_from_dat_or_db": 375
+    },
+    "errors": [],
+    "groups": 2,
+    "raw_group_bytes": 346530382,
+    "stored_group_bytes": 78784207,
+    "zips": 375,
+    "sidecar_files": 0,
+    "seconds": 228
+  },
+  "scan": {
+    "1": {
+      "match": 219,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 8
+    }
+  },
+  "dat_diff": {},
+  "catalog": {
+    "games": 61,
+    "releases": 227,
+    "old_dat_games_linked": 0,
+    "rom_release_links": 219
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "unknown",
+    "archives": 228,
+    "files": 239,
+    "files_with_local_payload": 221,
+    "sources": 270,
+    "dumplog_rows": 227,
+    "dat_links": 228,
+    "archive_release_links": 227,
+    "hardware_assertions": 35,
+    "dumplog_status": {
+      "unverified": 29,
+      "trusted_unverified": 175,
+      "verified": 23
+    },
+    "anomalies": {
+      "file_without_sha256": 10
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 219
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 10,
+    "fetched_at": "2026-10-06T08:20:38.845375+00:00",
+    "games": 52,
+    "hashes": 61,
+    "games_with_achievements": 36,
+    "hashes_of_games_with_achievements": 40,
+    "local_roms_matched": 32,
+    "ra_games_with_local_rom": 30,
+    "dat_entries_matched": 32,
+    "ra_games_in_any_dat": 30,
+    "hashes_with_achievements_unexplained": 8,
+    "by_category_local": {
+      "Homebrew": 1,
+      "Official": 24,
+      "Prototype": 5
+    }
+  },
+  "game_names": {
+    "source_name": "Sega - 32X.csv",
+    "source_sha256": "159cdfc52d1735918a56c1e584605423d4bb94683e90618178ed9509fbf2bdd8",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 213,
+    "rows_with_chinese": 213,
+    "unique_chinese_names": 54,
+    "normalized_titles": 54,
+    "matched_rows": 204,
+    "matched_rows_with_chinese": 204,
+    "matched_releases": 203,
+    "releases_with_chinese": 203,
+    "matched_games": 43,
+    "matched_roms": 203,
+    "matched_links": 2205,
+    "ambiguous_links": 6,
+    "ambiguous_rows": 6,
+    "unmatched_rows": 3,
+    "unresolved_rows": [
+      {
+        "row_number": 5,
+        "name_en": "32X Sample Program - PWM Sound Demo (Unknown) (SDK Build)",
+        "name_cn": "32X示例程序 - PWM音频 Demo",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 39,
+        "name_en": "Ecco the Dolphin (USA) (Demo) (Developer Cart)",
+        "name_cn": "海豚历险记",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 92,
+        "name_en": "Mars Check Program Version 1.0 (Unknown) (SDK Build) (Set 1)",
+        "name_cn": "Mars开发工具检查程序 1.0",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 93,
+        "name_en": "Mars Check Program Version 1.0 (Unknown) (SDK Build) (Set 2)",
+        "name_cn": "Mars开发工具检查程序 1.0",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 94,
+        "name_en": "Mars Sample Program - Gnu Sierra (Unknown) (SDK Build)",
+        "name_cn": "Mars开发工具示例程序 - Gnu Sierra",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 95,
+        "name_en": "Mars Sample Program - Pharaoh (Unknown) (SDK Build)",
+        "name_cn": "Mars开发工具示例程序 - Pharaoh",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 96,
+        "name_en": "Mars Sample Program - Runlength Mode Test (Unknown) (SDK Build)",
+        "name_cn": "Mars开发工具示例程序 - Runlength Mode Test",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 97,
+        "name_en": "Mars Sample Program - Texture Test (Unknown) (SDK Build)",
+        "name_cn": "Mars开发工具示例程序 - Texture Test",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 183,
+        "name_en": "Time Warner 32X CMD Download Cartridge (USA) (Program)",
+        "name_cn": "时代华纳 32X CMD 下载卡带",
+        "status": "unmatched"
+      }
+    ],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 57,
+      "qualified_title": 147
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 223,
+    "archive_plans_checked": 378,
+    "compression_groups_checked": 2,
+    "historical_zip_objects": 378,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 975,
+      "objects": 601,
+      "chunks": 10596,
+      "roms": 220,
+      "dat_sets": 1,
+      "dat_roms": 227,
+      "transformations": 0,
+      "packages": 219,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 618462822,
+      "historical_zip_bytes_not_stored": 554851991,
+      "unique_raw_chunk_bytes": 346863906,
+      "stored_chunk_bytes": 78835823,
+      "header_body_recipes": 0,
+      "zip_plans": 378,
+      "file_occurrences": 975,
+      "catalog_objects": 601
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 219
+      },
+      {
+        "dat_set_id": 1,
+        "status": "unmatched",
+        "count": 8
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 10593,
+        "raw_bytes": 346530382,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 3,
+        "raw_bytes": 333524,
+        "stored_bytes": 51616
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 2,
+      "raw_bytes": 346530382,
+      "stored_bytes": 78784207
+    },
+    "platform": "32x",
+    "solid_groups": {
+      "groups": 2,
+      "raw_bytes": 346530382,
+      "stored_bytes": 78784207
+    }
+  },
+  "finished_at": "2026-10-06T08:21:06.819487+00:00",
+  "seconds": 273,
+  "database_bytes": 86212608
+}
