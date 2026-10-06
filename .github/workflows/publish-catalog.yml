@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: 32x-catalog-release
+  group: sega32x-catalog-release
   cancel-in-progress: false
 
 jobs:
