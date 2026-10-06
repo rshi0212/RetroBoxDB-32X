@@ -1,10 +1,10 @@
 {
-  "tag": "32x-catalog-20261006",
-  "title": "32X Catalog: storage v4, first release",
-  "platform": "32x",
+  "tag": "sega32x-catalog-20261006-2",
+  "title": "32X Catalog: naming normalized, one schema for fifteen platforms",
+  "platform": "sega32x",
   "catalog_name": "RetroBoxDB.32X.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-32X/releases/download/32x-catalog-base-20261006/RetroBoxDB.32X.Catalog.sqlite",
-  "base_sha256": "e9e585189537e5198041716107b827ad044e1d976124829c8633d5f3b9b31218",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-32X/releases/download/sega32x-catalog-base-20261006-2/RetroBoxDB.32X.Catalog.sqlite",
+  "base_sha256": "057234a476cf8235198ac619345a7079b018e12c199a637e3f673d3f89a9bc41",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 387,
@@ -47,8 +47,8 @@
       "sha256": "0be54af3f628c16257b8ae0a0cc253d19039f41782faa68986d2cbbf757dc47c"
     },
     "events": {
-      "rows": 11,
-      "sha256": "0c0ae634da145048965e0e01650659fc0b3619a1e111ce7ff317de566300ad90"
+      "rows": 15,
+      "sha256": "f49222e6075943132fc30d061820067c09cd7f227f06b379868c0ee5f39598ae"
     },
     "fds_hardware": {
       "rows": 0,
@@ -76,7 +76,7 @@
     },
     "frontend_platforms": {
       "rows": 1,
-      "sha256": "1ed91ebb925b6fb54f11b870a9d64e9d55d8f7f0405672bb7ca05a3c1a17b5a4"
+      "sha256": "ae53a7d4e74f892a0b56242825e5817ea9fffabb89d538b521d1387633ffaace"
     },
     "frontend_profiles": {
       "rows": 1,
@@ -124,7 +124,7 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "353e2518f68448767107baf96a877b4a07d2a46c2540e66ada7c573112786806"
+      "sha256": "54ae4c53cfcbd17ac7f409a20c13814d7adb8b62099bdc6379342091854b5223"
     },
     "naming_decisions": {
       "rows": 158,
@@ -216,7 +216,7 @@
     },
     "platforms": {
       "rows": 1,
-      "sha256": "726e62827c5773f30e0973504c8d00505f635d548a3083526e33d573d381519b"
+      "sha256": "93b97e4a254b0db6768a65583a20b20869236ab09b276d197e66598ce480040c"
     },
     "pokemini_hardware": {
       "rows": 0,
@@ -307,8 +307,8 @@
       "sha256": "22e0a1fcf583b574e9b3861b7b651ee25c4500fcc7b118f6dd41ca0ba4f6bc11"
     },
     "scraper_providers": {
-      "rows": 1,
-      "sha256": "ad358de51eea41e843cd0757449d5bc7ed51b790e76768b9651051451c16bf86"
+      "rows": 2,
+      "sha256": "82920b2b40de7fc602f4f14769e0dd2384f435705a9be8cd4ed08a984c72d37f"
     },
     "sms_hardware": {
       "rows": 0,
@@ -416,6 +416,10 @@
       "kind": "python",
       "path": "tools/export_nointro_parents.py"
     },
+    "normalize_db.py": {
+      "kind": "python",
+      "path": "tools/normalize_db.py"
+    },
     "tests_v4.py": {
       "kind": "python",
       "path": "tests/test_v4.py"
@@ -448,21 +452,21 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-satellaview.json"
     },
-    "storage-experiment-sms": {
+    "storage-experiment-mastersystem": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-sms.json"
+      "path": "assessment/data/storage-experiment-mastersystem.json"
     },
-    "storage-experiment-32x": {
+    "storage-experiment-sega32x": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-32x.json"
+      "path": "assessment/data/storage-experiment-sega32x.json"
     },
-    "storage-experiment-ws": {
+    "storage-experiment-wswan": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-ws.json"
+      "path": "assessment/data/storage-experiment-wswan.json"
     },
-    "storage-experiment-wsc": {
+    "storage-experiment-wswanc": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-wsc.json"
+      "path": "assessment/data/storage-experiment-wswanc.json"
     },
     "storage-experiment-ngp": {
       "kind": "json",
@@ -486,15 +490,15 @@
     },
     "ra-report.json": {
       "kind": "json",
-      "path": "reports/ra-32x.json"
+      "path": "reports/ra-sega32x.json"
     },
     "ra-report-games.csv": {
       "kind": "csv",
-      "path": "reports/ra-32x-games.csv"
+      "path": "reports/ra-sega32x-games.csv"
     },
     "ra-report-missing.csv": {
       "kind": "csv",
-      "path": "reports/ra-32x-missing.csv"
+      "path": "reports/ra-sega32x-missing.csv"
     }
   },
   "repo_tests": [
