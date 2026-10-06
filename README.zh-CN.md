@@ -7,7 +7,7 @@
 | 项目 | 数值 |
 | --- | --- |
 | 原始大小 | 源 ZIP 414 个，593.1 MiB（No-Intro 375 个，RetroAchievements 集合 39 个）；解压后 ROM 414 个，1.09 GiB |
-| 入库后大小 | 完整库 87.7 MiB；公开 Catalog 3.8 MiB（不含 ROM 数据） |
+| 入库后大小 | 完整库 87.9 MiB；公开 Catalog 3.9 MiB（不含 ROM 数据） |
 | 比例 | 完整库为原 ZIP 的 14.8%，为解压后 ROM 总量的 7.8% |
 | 使用的技术 | 存储 v4：32 KiB 块按 SHA256 去重，按 No-Intro 游戏族顺序装入最大 256 MiB 的 LZMA2 实体组（字典 256 MiB）；逐块 SHA256、逐对象 CRC32／MD5／SHA1／SHA256 校验；源 ZIP 由 TorrentZip 配方逐字节重建 |
 | 导出性能 | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz，空闲负载，Python 3.14.4，含全部校验。按最新 DAT 整套导出（`export_set.py`，219 个文件，逐个按 DAT 哈希校验）：69.9 MiB/s，平均 38 毫秒／个；单个文件冷缓存（每次清空缓存，需解压所在组的前段）：ROM 平均 1.524 秒，TorrentZip 平均 1.707 秒 |
@@ -37,7 +37,7 @@
 | 各版 DAT 覆盖 | 20260317-140429：219/227 |
 | 不在任何 DAT 的本地 ROM | 9 |
 | RetroAchievements 集合中的 ROM 文件 | DAT 中有 31，仅 RA 收录 7，哈希不在最新 RA 快照 1（[清单](reports/ra-sega32x-collection-unknown.csv)）；仍缺本地 ROM 的 RA 游戏见 [缺口清单](reports/ra-sega32x-missing.csv) |
-| No-Intro DB Export＋Dump Log unknown | 228 个档案、239 个文件身份、35 条有文档的硬件声明；Dump Log Verified 23 |
+| No-Intro DB Export＋Dump Log 20260317-140429 | 228 个档案、239 个文件身份、35 条有文档的硬件声明；Dump Log Verified 23 |
 | RetroAchievements（console 10） | 有成就的游戏 36 个：本地有 ROM 35（39 个 ROM），ROM 在兄弟库中 0，仅 DAT 有 0，仅 DB 文件 0，无 No-Intro 对应 1 |
 | 中文名 | 213 条记录中 213 条有中文（54 个唯一名）；本地 ROM 203 个有中文名 |
 | 完整库审计 | 231 个对象、2 个组、387 个 ZIP 配方，全部通过 |

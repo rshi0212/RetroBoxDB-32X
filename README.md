@@ -7,7 +7,7 @@ Single-file SQLite preservation database for Sega 32X. The public Catalog holds 
 | Item | Value |
 | --- | --- |
 | Original size | 414 source ZIPs, 593.1 MiB (No-Intro 375, RetroAchievements sets 39); 414 ROM files, 1.09 GiB uncompressed |
-| Stored size | populated database 87.7 MiB; public Catalog 3.8 MiB (no ROM data) |
+| Stored size | populated database 87.9 MiB; public Catalog 3.9 MiB (no ROM data) |
 | Ratio | 14.8% of the source ZIPs, 7.8% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 32 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (219 files, each checked against the DAT hashes): 69.9 MiB/s, 38 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.524 s, TorrentZip 1.707 s on average |
@@ -37,7 +37,7 @@ Single-file SQLite preservation database for Sega 32X. The public Catalog holds 
 | DAT coverage per version | 20260317-140429: 219/227 |
 | Local ROMs in no DAT | 9 |
 | ROM files of the RetroAchievements set | in a No-Intro DAT 31, RA only 7, hash not in the latest RA snapshot 1 ([list](reports/ra-sega32x-collection-unknown.csv)); RA games still without a local ROM: [gap list](reports/ra-sega32x-missing.csv) |
-| No-Intro DB Export + Dump Log unknown | 228 archives, 239 file identities, 35 documented hardware assertions; Dump Log Verified 23 |
+| No-Intro DB Export + Dump Log 20260317-140429 | 228 archives, 239 file identities, 35 documented hardware assertions; Dump Log Verified 23 |
 | RetroAchievements (console 10) | 36 games with achievements: 35 with a local ROM (39 ROMs), 0 with the ROM in a sibling database, 0 DAT only, 0 DB file only, 1 without a No-Intro counterpart |
 | Chinese names | 213 of 213 rows translated (54 unique); 203 local ROMs have a Chinese name |
 | Populated-database audit | 231 objects, 2 groups, 387 archive plans, all passed |
